@@ -1,20 +1,24 @@
 html{
 	background-color: #c3c7c9;
+	/*background-image: url(montagnes.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
 	background-image: url(montagnes.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 body{
-	width: 90%;
+	width: 96.5%;
 	margin:auto;
-	font-family: "Times New Roman", Arial,sans-serif;
+
+	font-family:  Arial,Verdana,sans-serif;
 }
 h1,footer{
 	
 	/*background-color: #7a7a7a;*/
 	/*background-color: #2b2e2f;*/
 	background-color: #919C9C;
-	opacity: 0.87;
+	opacity: 0.9;
 	color: #000000;
 	
 }
@@ -39,6 +43,10 @@ nav a{
 	color: white;
 }
 
+/*nav a:visited{
+	color:#66a3ff ;
+}*/
+
 .lien{
 	word-spacing: 0em;
 }
@@ -46,13 +54,22 @@ nav a{
 main{
 	color: black;
 	background-color: #c3c7c9;
-	opacity: 0.8;
+	opacity: 0.92;
 	padding: 0.5%;
 }
 p,h2,dl{
 	padding-left:  0.5%;
 	padding-right: 0.5%;
 }
+
+p{
+	text-align: justify;/* left ou justify? */
+}
+
+/*p{
+	padding-left:  0.75%;
+	padding-right: 0.5%;
+}*/
 
 /*#mariage{
 	margin-top: 5%;
@@ -68,6 +85,14 @@ dt,dd{
 }
 #pied{
 	text-align: center;
+}
+
+#imagegauche{
+	padding-right: 1%;
+}
+
+#imagedroite{
+	padding-left: 1%;
 }
 
 /*footer{
